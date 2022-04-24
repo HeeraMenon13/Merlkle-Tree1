@@ -125,7 +125,7 @@ The algorithm goes as follows for an example of application of Merkle Tree:
 
 ### OUTPUT
 
-![The Output](./pic3.jpg);
+![The Output](./pic5.jpg);
 
 
 ## References
