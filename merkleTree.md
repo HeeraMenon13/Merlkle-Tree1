@@ -15,7 +15,7 @@ Hash of the data gives leaf nodes while hashing these hashes gives the hash for 
 
 ## Algorithm
 
-![The Algorithm](./pic1.jpg);
+![The Algorithm](./pic4.jpg);
 
 a, b, c, and d are some data elements (files, JSON, etc) and H is a hash function. A hash function acts as a “digital fingerprint” of some piece of data by mapping it to a simple string with a low probability that any other piece of data will map to the same string. Each node is created by hashing the concatenation of its “parents” in the tree.
 
