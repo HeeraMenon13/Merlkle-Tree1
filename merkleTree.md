@@ -15,7 +15,7 @@ Hash of the data gives leaf nodes while hashing these hashes gives the hash for 
 
 ## Algorithm
 
-![]("pic1.jpg");
+![The Algorithm](./pic1.jpg);
 
 a, b, c, and d are some data elements (files, JSON, etc) and H is a hash function. A hash function acts as a “digital fingerprint” of some piece of data by mapping it to a simple string with a low probability that any other piece of data will map to the same string. Each node is created by hashing the concatenation of its “parents” in the tree.
 
@@ -29,7 +29,7 @@ The algorithm goes as follows for an example of application of Merkle Tree:
 -	Join the ids of pairs by concatenation
 -	To these concatenated pairs, apply double hashing 
 
-![]("pic2.jpg");
+![The Steps](./pic2.jpg);
 
 
 ## Create and Verify the Merkle Tree (Implementation using Java)
@@ -125,7 +125,7 @@ The algorithm goes as follows for an example of application of Merkle Tree:
 
 ### OUTPUT
 
-![]("pic3.jpg");
+![The Output](./pic3.jpg);
 
 
 ## References
@@ -133,6 +133,8 @@ The algorithm goes as follows for an example of application of Merkle Tree:
 -	https://www.pranaybathini.com/2021/05/merkle-tree.html
 -	https://www.javatpoint.com/blockchain-merkle-tree
 -	https://www.linkedin.com/pulse/merkle-tree-its-implementation-java-nikhil-goyal
+
+
 
 
 
